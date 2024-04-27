@@ -1,6 +1,5 @@
 #dash{
     display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
 }
 
@@ -14,7 +13,6 @@
     background-color: rgb(235, 235, 235);
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
     column-gap: 20px;
     padding:20px;
 }
@@ -63,6 +61,8 @@
 }
 
 #project-container .project-card{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
@@ -83,4 +83,9 @@
 
 #project-container .card-essential-sign-container img+img{
     margin-left: 15px;
+}
+
+#content-container .heading{
+    font-weight: bold;
+    font-size: 18px;
 }
