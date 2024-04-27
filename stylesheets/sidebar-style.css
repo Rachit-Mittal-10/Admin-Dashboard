@@ -20,10 +20,10 @@
 #sidebar > div{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 #sidebar .sidebar-item{
-    width: 130px;
     color: white;
     padding: 10px;
     display: flex;
